@@ -1,0 +1,1 @@
+import Button = require('carbon-react/lib/Button');
