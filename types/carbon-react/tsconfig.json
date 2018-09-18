@@ -1,11 +1,13 @@
 {
     "compilerOptions": {
+        "jsx": "react",
         "module": "commonjs",
         "lib": [
             "es6"
         ],
         "noImplicitAny": true,
         "noImplicitThis": true,
+        "strictFunctionTypes": true,
         "strictNullChecks": true,
         "baseUrl": "../",
         "typeRoots": [
@@ -17,6 +19,6 @@
     },
     "files": [
         "index.d.ts",
-        "carbon-react-tests.ts"
+        "carbon-react-tests.tsx"
     ]
 }

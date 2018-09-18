@@ -1,18 +1,18 @@
 import * as React from 'react';
 
 declare interface ButtonProps {
-  as?: string;
+    as?: string;
 
-  children: any;
+    children: any;
 
-  disabled?: boolean;
+    disabled?: boolean;
 
-  theme?: string;
+    theme?: string;
 
-  size?: string;
+    size?: string;
 
-  subtext?: string;
+    subtext?: string;
 }
 
-declare class Button extends React.Component<ButtonProps> {}
+declare class Button extends React.Component<ButtonProps> { }
 export = Button;
